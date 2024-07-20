@@ -6,8 +6,29 @@ Created on Wed Dec 14 21:26:10 2022
 @author: ruadhri
 """
 
-Contained here are all the relevant files for Project 1 - Neutrino Oscillations
-Computational Physics coursework. These are as follows,
+Title: A log-likelihood fit for extracting neutrino oscillation parameters
+
+Key Topic: Functional Minimisation
+
+This project involves developing a Negative Log Likelihood (NLL) fit to extract neutrino oscillation parameters from simulated T2K data. The tasks include:
+
+	Data Handling: Reading experimental and unoscillated event rate data from provided files.
+
+	Probability Calculation: Coding the oscillation probability using a given formula and applying it to predict event rates.
+
+	NLL Computation: Writing a function to compute the NLL and creating graphs to identify minima.
+
+	Minimisation: Implementing a parabolic minimiser to find the optimal oscillation parameters.
+
+	Accuracy Estimation: Estimating the error of the fit results using NLL shape analysis and curvature.
+
+	Two-dimensional Fitting: Extending the minimisation to handle two parameters simultaneously and validating results.
+
+	Cross-section Modelling: Incorporating the neutrino interaction cross-section as a free parameter in the NLL minimiser and estimating its effect on the results.
+
+The goal is to accurately determine the oscillation parameters and assess the rate of increase in the neutrino interaction cross-section with energy.
+
+The relevant files for this project are as follows,
     
 1) minimisation.py
         
